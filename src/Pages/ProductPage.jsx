@@ -92,6 +92,7 @@ const ProductPage = () => {
                     />
                     <Stack mt="6" spacing="3">
                       <Heading size="md">{product.title}</Heading>
+                      <Heading size="md">${product.price}</Heading>
                     </Stack>
                   </CardBody>
                 </Card>
